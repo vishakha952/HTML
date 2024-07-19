@@ -366,8 +366,7 @@
  
  .section-3{
  
- width: 70%;
- margin: auto;
+ width: 100%;
  display: flex;
  
  justify-content:center;
@@ -576,9 +575,8 @@
  border: 2px solid green;
  display: flex;
  height: 100vh;
- 
- 
- }
+}
+
  .left-box{
  
  width: 50%;
@@ -764,37 +762,31 @@
  
  }
  .product{
-  
-    width: 75%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
- 
- }
- 
- 
- .mini-product1{
-    
-    width:500px;
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #f1f1f1;
- }
- .mini-product1 .image{
-    padding: 6.5rem 0rem;
-   
- 
- }
- .mini-product1 .image img{
-   
-    width: 100%;
- }
+   display:flex;
+   width: 100%;
+   align-items: center;
+   justify-content:space-between;
+   /* border: 2px solid black; */
+   padding: 0px 180px;
+}
+
+.mini-product1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   background-color: #f1f1f1;
+   height: 705px;
+   width: 550px;
+   margin-right: 20px;
+}
+.mini-product2{
+   display: block;
+   width: 600px;
+}
+
+
  
  .mini-product1 h3{
     margin: 0px 0px 15px;
@@ -835,15 +827,7 @@
  color: #71CD14;
  border: 1px solid #71CD14;
  }
- .mini-product2{
-  
-    width: 600px;
-    
-    display: flex;
-    flex-direction: column;
-    
-    gap: 50px;
- }
+
  .main-container2{
   
     width: 100%;
@@ -1173,7 +1157,7 @@
  display: flex;
  
  overflow: hidden;
- width: 78%;
+ width: 100%;
  margin: auto;
  gap: 30px;
  flex-wrap: wrap;
